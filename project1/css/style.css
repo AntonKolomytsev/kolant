@@ -1,0 +1,355 @@
+/*Rules for all site*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+}
+/*!!!! Section presentation !!!!*/
+/*Up site*/
+.presentation{
+    height: 800px;
+    background: url(/img/01bg/main_bg.png) center center/cover no-repeat;
+    padding: 39px 0 64px 0;
+
+}
+/*Middle container*/
+.insidePresentation{
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+}
+/*Logotype picture*/
+.main_logo{
+    display: block;
+    margin: 0 auto;
+    border-radius: 50px;
+    
+}
+/*Logotype text*/
+.logo_text{
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 14px;
+}
+/*H1*/
+h1{
+    margin-top: 53px;
+}
+.title{
+    text-transform: uppercase;
+    color:#f28020;
+    font-size:  41px;
+    font-weight: 900;
+    line-height: 24px;
+    text-align: center;
+}
+/*H2*/
+h2.title{
+    margin-top: 30px;
+}
+.simple .title_big{
+    color:white;
+    font-size: 80px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 21px;
+}
+/*Line left and right next to H2*/
+
+/*Style for promo text*/
+.presentation .promo_text{
+    color:white;
+    font-size: 21px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 23px;
+    padding: 0 13px;
+}
+/*Style for promo text span*/
+.presentation .promo_text span{
+    color: #f28020;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+/*Button for write to intensive*/
+.presentation .btn_write, .gift .btn_write{
+    display: block;
+    margin: 73px auto;
+    width: 313px;
+    height: 72px;
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
+    border: 4px solid rgba(0, 0, 0, 0.23);
+    background-image: linear-gradient(to top, #2798B9 0%, #3AB6DA 100%);
+    color:white;
+    font-family: Roboto Condensed;
+    font-size: 21px;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+/*Div for know more*/
+.presentation .know_more{
+ color: white;
+ font-size:15px;
+ font-weight: 400;
+ text-transform: uppercase;
+ text-align: center;
+}
+/*Div for know more image*/
+.presentation .know_more_img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 13px;
+}
+/* !!!!! Section what will you wait !!!! */
+.waiting{
+    background-color: #efefef;
+    min-height: 604px;
+}
+
+/*Inside container*/
+.inside_waiting{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 85px 0 75px 0;
+   
+}
+/*Text H2*/
+.waiting .waiting_h2{
+    color: #252525;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+/*Devider*/
+.waiting .waiting_devider{
+    display: block;
+    margin: 0 auto;
+    margin-top: 18px;
+    width: 217px;
+    height: 4px;
+    background-color:#f9bf3b;
+    
+}
+/*Subcaption after devider*/
+.waiting .waiting_sub{
+    margin-top: 17px;
+    color: #4a4a4a;
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+}
+/*Styles for wrapper*/
+.waiting .waiting_wrapper{
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+
+}
+/*Styles for Items*/
+.waiting .waiting_wrapper .waiting_items{
+    width: 339px;
+    text-align: center;
+}
+/*Fix width and height image*/
+.waiting .waiting_wrapper .waiting_items .waiting_img{
+width: 100%;
+}
+/*Description*/
+.waiting .waiting_wrapper .waiting_items .waiting_descr{
+    margin-top: 33px;
+    color:#4a4a4a;
+    font-size: 15px;
+    font-weight: 300;
+}
+/* Section optimisation*/
+.optimisation{
+    min-height: 550px;
+    padding: 102px 0 107px 0;
+}
+.optimisation .optimisation_header{
+margin-left: 391px;
+font-style: normal;
+font-weight: 900;
+font-size: 30px;
+color: #299CBD;
+text-transform: uppercase;
+}
+.optimisation .optimisation_text{
+margin-top: 25px;
+margin-left: 391px;
+color:#4a4a4a;
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+}
+.optimisation .optimisation_text span{
+    color: #4a4a4a;
+    font-weight: 700;
+}
+.optimisation .optimisation_img{
+position: absolute;
+top: -54px;
+left:-240px;
+z-index: -1;
+}
+/*Repeat from waiting*/
+.end_webinar .waiting_h2{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+/*Devider. Repeat from wating*/
+.end_webinar .waiting_devider{
+    display: block;
+    margin: 0 auto;
+    margin-top: 18px;
+    width: 217px;
+    height: 4px;
+    background-color:#f9bf3b;    
+}
+
+.end_webinar{
+    min-height: 447px;
+    padding: 86px 0 79px 0;
+    background:url(/img/01bg/second_bg.png) center center/cover no-repeat;
+
+}
+
+.end_webinar .end_webinar_wrapper{
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.end_webinar .end_webinar_wrapper .end_webinar_items{
+    width: 204px;
+    justify-content: center;
+}
+.end_webinar .end_webinar_wrapper .end_webinar_round{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 0 auto;
+    width: 115px;
+    height: 115px;
+    background-color: #b4e2ff;
+    border-radius: 100%;
+}
+.end_webinar_descr{
+    margin-top: 25px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    color: #EFEFEF;
+}
+/*Section Gift*/
+.gift{
+    background-color:#efefef;
+    min-height: 628px;
+}
+.img_gift{
+    
+    display: block;
+    padding: 86px 0 0 0;
+    margin: 0 auto;
+}
+.gift_text{ 
+    margin-top: 42px;
+    color: #252525;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+.gift .btn_write{
+margin-top: 52px;
+}
+/*Section start*/
+.start{
+    min-height: 369px;
+}
+.start_img{
+    margin: 82px auto 37px auto;
+    display: block;
+    align-items: center;
+}
+.start .event_text{
+    color: #252525;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 12px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.start .start_header{
+    margin-top: 30px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    color: #299CBD;
+    text-transform: uppercase;
+}
+.start .final_text{
+    margin-top: 25px;
+    padding-bottom: 64px;
+    color: #4a4a4a;
+    font-size: 23px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-align: center;
+}
+/*Footer*/
+.footer{
+    min-height: 166px;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.footer_inside{
+    width: 377px;
+    height: 36px;
+}
+.footer_inside .foot_link{
+    display: inline;
+    color: #888888;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 21px;
+    text-align: center;
+    text-decoration: underline;
+}
+.verbar{
+    color: #888888;
+}
+.footer_inside .foot_text{
+    color: #888888;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 21px;
+    text-align: center;
+}
+.foot_text a{
+    text-decoration: none;
+}
